@@ -1,0 +1,162 @@
+body{
+	font-family: "microsoft yahei";
+	background: #000;
+	color: #fff;
+}
+.top{
+	background: url('../img/bg-image.jpg') no-repeat left top;
+	margin-bottom: 140px;
+}
+nav span{
+	background: #337ab7;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+.nav>li>a:focus,
+.nav>li>a:hover{
+	background-color: transparent;
+}
+.navbar{
+	margin: 0 auto;
+}
+.navbar-brand{
+	padding-top: 28px;
+}
+.navbar-collapse{
+	padding-right: 0;
+}
+.nav>li>a{
+	padding: 28px 0 28px 40px;
+	font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;	
+}
+.main{
+	margin-top: 420px;
+}
+.main a{
+	font-size: 18px;
+	padding: 8px;
+}
+.main h1{
+	font-size: 34px;
+	margin: 19px auto 30px;
+}
+.main p{
+	font-size: 20px;
+}
+.main .btn{
+	color: #fff;
+	border-radius: 0;
+	border: 1px solid #fff;
+	background: transparent;
+	padding: 14px 25px;	
+	margin:85px auto 265px;
+	position: relative;
+}
+.main .point{
+	position: absolute;
+	top: -13px;
+	right: -5px;
+	padding: 0 5px;
+	background: #0c0f12;
+	border-radius: 50%;
+}
+.main span{
+	margin: 5px auto;
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #fff;
+}
+.main span:nth-child(1){
+	opacity: 0.6;
+}
+.main span:nth-child(2){
+	opacity: 0.8;
+}
+.present{
+	background: url('../img/erigeron.jpg') no-repeat left top;
+	background-size: cover;
+	margin-bottom: 62px;
+}
+.glim{
+	padding: 100px;
+}
+.pre-font{
+	margin-top: 110px;
+}
+.pre-font p{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.classify{
+	background: url('../img/tower.jpg') no-repeat left top;
+	background-size: 100% 100%;
+	padding: 292px 0;
+}
+.border{
+	border: 2px solid #fff;
+	text-align: center;
+	padding: 105px 0;
+}
+.img-box{
+	background: url('../img/game-bg.jpg') no-repeat left top;
+	background-size: 100% 100%;
+	padding: 100px 0;
+}
+.img-box #left,
+.img-box #right{
+	top: 50%;
+	font-size: 30px;
+	width: 40px;
+	height: 45px;
+	background: #333;
+}
+.img-box #left{
+	left: -40px;
+}
+.img-box #right{
+	right: -40px;
+}
+.img-box #clrcle{
+	bottom: -70px;
+}
+#clrcle li{
+	background-color: #000;
+	border-color: #000;
+	opacity: 0.4;
+	margin-right: 10px;
+}
+#clrcle .active{
+	opacity: 1;
+}
+.contact{
+	background: url('../img/bg-image.jpg') no-repeat center;
+	padding: 190px 0 200px;
+}
+.contact p{
+	font-size: 18px;
+}
+.contact span{
+	float: left;
+	padding: 8px 12px;
+	background: #fff;
+	border-radius: 50%;
+	color: #000;
+	margin: -10px 10px 0 0;
+	opacity: 0.8;
+}
+.footer{
+	padding: 30px 0;
+}
+.footer p{
+	font-size: 16px;
+	color: #656565;
+}

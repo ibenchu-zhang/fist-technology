@@ -1,0 +1,116 @@
+body{
+	font-family: "microsoft yahei";
+	background: #000;
+	color: #fff;
+}
+.top{
+	background: url('../img/bg-image.jpg') no-repeat center;
+	background-size: cover; 	
+}
+nav span{
+	background: #337ab7;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+.nav>li>a:focus,
+.nav>li>a:hover{
+	background-color: transparent;
+}
+.navbar{
+	margin: 0 auto;
+}
+.navbar-brand{
+	padding-top: 28px;
+}
+.navbar-collapse{
+	padding-right: 0;
+}
+.nav>li>a{
+	padding: 28px 0 28px 40px;
+	font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;	
+}
+.main{
+	margin-top: 450px;
+	position: relative;
+	padding: 0;
+}
+.bg-gray{
+    opacity: 0.9;
+    z-index: -1;
+}
+.bg-fire,
+.bg-game,
+.bg-building{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bg-game{
+	z-index: -1;
+}
+.content{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -440px;
+	text-align: center;
+}
+h1,
+.partner h3{
+	margin: 40px auto 60px;
+	font-size: 24px;
+}
+h1 span,
+.partner h3 span{
+	display: inline-block;
+	width: 20%;
+	border-bottom: 2px solid #fff;
+	margin: 10px 20px;
+}
+.content p{
+	font-size: 18px;
+	line-height: 2em;
+	margin-bottom: 20px;
+}
+.gaming,
+.brand{
+	position: relative;
+}
+.partner{
+	background: url('../img/building.jpg') no-repeat left top;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+.gaming .row{
+	margin: 138px 0;
+	color: #000;
+}
+.gaming h2{
+	margin-top: 0;
+}
+.margin{
+	margin: 46px 0 84px;
+}
+.brand{
+	overflow: hidden;
+}
+.brand img{
+	margin: 20px auto 50px;
+}
+#margin-top{
+	margin-top: 0;
+}
+.footer{
+	padding: 30px 0;
+}
+.footer p{
+	font-size: 16px;
+	color: #656565;
+} 

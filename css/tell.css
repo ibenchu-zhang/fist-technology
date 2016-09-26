@@ -1,0 +1,124 @@
+body{
+	font-family: "microsoft yahei";
+	background: #000;
+	color: #fff;
+}
+.top{
+	background: url('../img/bg-image.jpg') no-repeat left top;
+	background-size: cover;
+	margin-bottom: 140px;
+}
+nav span{
+	background: #337ab7;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+.nav>li>a:focus,
+.nav>li>a:hover{
+	background-color: transparent;
+}
+.navbar{
+	margin: 0 auto;
+}
+.navbar-brand{
+	padding-top: 28px;
+}
+.navbar-collapse{
+	padding-right: 0;
+}
+.nav>li>a{
+	padding: 28px 0 28px 40px;
+	font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;	
+}
+.main{
+	margin-top: 200px;
+}
+.title a{
+	font-size: 18px;
+	padding:10px;
+}
+.main h1{
+	font-size: 20px;
+	margin: 18px 0 100px;
+}
+.main h2{
+	font-size: 22px;
+	margin: 40px 0;
+}
+.contact{
+	margin-bottom: 100px;
+}
+.contact p{
+	font-size: 18px;
+}
+.contact span{
+	float: left;
+	padding: 8px 12px;
+	background: #fff;
+	border-radius: 50%;
+	color: #000;
+	margin: -10px 10px 0 0;
+	opacity: 0.8;
+}
+.view{
+	padding: 40px;
+	border: 2px solid #4b4b4b;
+	background:rgba(06,07,09,0.6);
+	border-bottom-color:transparent ;
+}
+.view h3{
+	font-size: 22px;
+	color: #fff;
+}
+.view input{
+	padding-bottom: 10px;
+	margin: 30px 0 60px;
+	border-color: transparent;
+	border-bottom: 1px solid #fff;
+}
+input:focus{
+	outline: 0;
+}
+.view textarea{
+	padding: 10px;
+	border: 1px solid #fff;
+	margin-bottom: 20px;
+}
+.view input,
+.view textarea{
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	background: transparent;
+}
+.view .btn{
+	color: #fff;
+	border-radius: 0;
+	border: 1px solid #fff;
+	background: transparent;
+	padding: 8px 25px;	
+	position: relative;
+	float: right;
+}
+.view .point{
+	position: absolute;
+	top: -10px;
+	right: -5px;
+	padding: 0 5px;
+	background: #0c0f12;
+	border-radius: 50%;
+}
+.footer{
+	padding: 30px 0;
+}
+.footer p{
+	font-size: 16px;
+	color: #656565;
+} 
